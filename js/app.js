@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+const users = [
+    {
+        name: 'Denis',
+        age: 33
+    },
+    {
+        name: 'Petr',
+        age: 30
+    },
+    {
+        name: 'Viktor',
+        age: 39
+    }
+    ];
+
+    const usersObj = {};
+
+for (let i = 0; i < users.length; i++) {
+    usersObj[users[i].name] = users[i];
+}
+console.log();
+=======
 // ЦИКЛЫ
 
 // Виды циклов: while, do while, for, for of, for in
@@ -118,3 +141,4 @@ console.log(user[key]);}
 for (let value of users) {
     console.log(value);
 }
+>>>>>>> 432861202396d5a48a8c9c42b3c8a22aa2778fab
