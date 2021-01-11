@@ -29,8 +29,8 @@ value = Number(null); // будет 0
 value = Number("false"); // будет Nan
 value = Number([1, 2, 3]); // будет Nan
 
-value - parseInt('2003dfwefwwf'); // служит для выделения целых чисел, выделит 2003
-value - parseFloat('2.3dfwefwwf'); // служит для выделения дробных чисел, выделит 2.3
+value = parseInt('2003dfwefwwf'); // служит для выделения целых чисел, выделит 2003
+value = parseFloat('2.3dfwefwwf'); // служит для выделения дробных чисел, выделит 2.3
 
 // ... to boolean
 value = Boolean('hello'); // любая не пустая строка, в том числе с одним только пробелом будет считаться true

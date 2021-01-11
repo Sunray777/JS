@@ -1,13 +1,21 @@
-let obj = {
-product: 'iPhone'
-};
+const users = [
+    {
+        name: 'Denis',
+        age: 33
+    },
+    {
+        name: 'Petr',
+        age: 30
+    },
+    {
+        name: 'Viktor',
+        age: 39
+    }
+    ];
 
-obj.currency = 'dollar';
-obj.details = {};
+    const usersObj = {};
 
-obj.details.model = 'XR';
-obj['details'].color = 'red';
-
-let value = obj;
-
-console.log(value);
+for (let i = 0; i < users.length; i++) {
+    usersObj[users[i].name] = users[i];
+}
+console.log();
