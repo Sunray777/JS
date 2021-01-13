@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f189c20440ca70aefe2162642ef92d3bc840b736
 let value;
 
 value = 2 == 2;
@@ -106,9 +102,7 @@ if (value < 10) {
 console.log('value >=10', value);} 
 else {
     console.log('else');
-<<<<<<< HEAD
-=======
-=======
+
 let value;
 
 value = 2 == 2;
@@ -213,6 +207,3 @@ if (value < 10) {
 console.log('value >=10', value);} 
 else {
     console.log('else');
->>>>>>> 432861202396d5a48a8c9c42b3c8a22aa2778fab
->>>>>>> f189c20440ca70aefe2162642ef92d3bc840b736
-}
