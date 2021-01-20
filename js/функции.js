@@ -86,7 +86,7 @@ const square = function (x) {
 function foo() {
   console.log(arguments); // arguments это все аргументы, которые были переданы в функцию
 
-  for (leti = 0; i < arguments.length; i++) {
+  for (let i = 0; i < arguments.length; i++) {
     console.log(arguments[i]);
   }
 }

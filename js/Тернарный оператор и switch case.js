@@ -45,8 +45,7 @@ switch(color) {
     console.log('Color is yellow' || 'Color is red');
     break;
     default: 
-=======
-<<<<<<< HEAD
+
 let a = 1;
 let b = 0;
 
@@ -93,7 +92,7 @@ switch(color) {
     console.log('Color is yellow' || 'Color is red');
     break;
     default: 
-=======
+
 let a = 1;
 let b = 0;
 
@@ -140,6 +139,5 @@ switch(color) {
     console.log('Color is yellow' || 'Color is red');
     break;
     default: 
->>>>>>> f189c20440ca70aefe2162642ef92d3bc840b736
->>>>>>> 432861202396d5a48a8c9c42b3c8a22aa2778fab
+
     console.log('Default');}
