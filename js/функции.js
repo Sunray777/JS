@@ -91,3 +91,25 @@ function foo() {
   }
 }
 foo(11, "some string", [1, 2, 3]);
+
+// Пример функции из задачи
+
+function guessTheNumber(num) {
+  if (num <= 10 && num >= 0) {
+    res = Math.ceil(Math.random() * num) + 1;
+    console.log(res);
+    return res;
+  } else if (num !== "number") {
+    return new Error("Please provide a valid number");
+  } else {
+    return new Error("Please provide a number in range 0-10");
+  }
+}
+let x = guessTheNumber(12);
+console.log(x); // Error "Please provide a number in range 0-10"
+
+x = guessTheNumber(10);
+console.log(x); // Random number 0-10
+
+x = guessTheNumber("Hello");
+console.log(x); // Error "Please provide a valid number"
