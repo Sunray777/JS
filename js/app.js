@@ -106,6 +106,7 @@ const result2 = firstFunc(["my", "name", "is", "Trinity"], nameToUpperCase);
 
 console.log(result);
 console.log(result2);
+console.log(el);
 
 // console.log(firstFunc(["my", "name", "is", "Trinity"], handler1));
 
