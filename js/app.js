@@ -97,7 +97,17 @@ function handler1(el) {
   return el.length;
 }
 
-function nameToUpperCase(el) {
+function nameToUpperCase(el) { //Пытаюсь склеить слова, и чтобы каждое слово было с большой буквы
+let resNew = [];
+  for (i = 0; i < el.length; i++)
+  {
+    if (i === 0 || el[i - 1 === " "])
+{resNew += el[i].toUpperCase()
+}
+  }
+
+
+
   return el.toUpperCase();
 }
 
@@ -106,6 +116,7 @@ const result2 = firstFunc(["my", "name", "is", "Trinity"], nameToUpperCase);
 
 console.log(result);
 console.log(result2);
+
 
 // console.log(firstFunc(["my", "name", "is", "Trinity"], handler1));
 
